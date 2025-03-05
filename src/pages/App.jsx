@@ -1,7 +1,7 @@
 import { useState } from "react";
-import MovieList from "./components/MovieList";
-import Header from "./components/header";
-import WatchlistModal from "./components/WatchListModal";
+import MovieList from "../components/MovieList";
+import Header from "../components/header";
+import WatchlistModal from "../components/WatchListModal";
 function App() {
   const [watchlist, setWatchlist] = useState([]);
   const [isModalOpen, setIsModalOpen] = useState(false);
